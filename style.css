@@ -1,0 +1,103 @@
+/*Colors and fonts*/
+
+body {
+	background-color: #B0C5A4;
+	color: rgb(50,50,50);
+	font-family: "Lora", serif;
+	font-size: 17px;
+}
+h1, h2 {
+	font-family: emoji;
+}
+
+h1 {
+	color: #f2b0d0;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: "Rammetto One", sans-serif;
+}
+
+h2 {
+	color: #f2b0d0;
+	font-size: 24px;
+	font-weight: lighter;
+	font-family: "Rammetto One", sans-serif;
+}
+
+a{
+	font-family: emoji;
+	text-decoration: none;
+	color: #55875587;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0 20px
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px ) {
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 400px
+	}
+}
+
+@media (max-width: 760px) {
+	.img-passion {
+		width: 600px
+	}
+}
+
+.img-passion {
+	max-width: 100%;
+	height: auto;
+}
+
+@media (max-width: 540px) {
+	.img-passion {
+		width: 400px
+	}
+}
+
+.card-white {
+	background: white;
+	padding:40px;
+	box-shadow: 0px 10px 30px #12372A;
+	margin: 20px;
+	text-align: center;
+	border-radius: 70px
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #55875587;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: lightpink;
+	color: white;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px
+}
